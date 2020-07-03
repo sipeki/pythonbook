@@ -48,5 +48,5 @@ from Code import pythonbook
 
 def test_recursion():
 
-    assert pythonbook.recursion() == "1 1 1 1 1 1 1 1 1 1"
-    assert pythonbook.recursion() == "2 3 5 7 9 11 15 19 21 22"     # 1 1 2 1 2 3 4 3 4 5 6 5 7 8 9 10 11 10 12 10
+    assert pythonbook.recursion() == "1 1 1 1 1 1 1 1 1 1"          # 1 0
+    assert pythonbook.recursion() == "2 3 5 7 9 11 13 15 17 19"     # 1 1 2 1 2 3 4 3 4 5 6 5 6 7 8 7 8 9 10 9
