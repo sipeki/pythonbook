@@ -1,6 +1,3 @@
-import mock
-import module
-
 
 #def helloworld():
 

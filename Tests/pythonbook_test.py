@@ -1,6 +1,3 @@
-# import mock
-# import module
-
 import pytest
 from Code import pythonbook
 
