@@ -1,5 +1,5 @@
-import mock
-import module
+# import mock
+# import module
 
 import pytest
 from Code import pythonbook
@@ -9,15 +9,15 @@ from Code import pythonbook
 
  #   assert pythonbook.helloworld() == "Hello World"
 
-#def test_helloworld2():
+def test_helloworld2():
 
- #   assert pythonbook.helloworld2() == "Hello World"
+    assert pythonbook.helloworld2() == "Hello World"
 
-def test_parameters():
+#def test_parameters():
     # module.input = lambda: 'some_input'
     #
     # output = module.parameters()
    # assert output == 'expected_output'
 
-    with mock.patch.object(__builtins__, 'input', lambda: 'some_input'):
-        assert pythonbook.parameters() == 'expected_output'
+ #   with mock.patch.object(__builtins__, 'input', lambda: 'some_input'):
+  #      assert pythonbook.parameters() == 'expected_output'
