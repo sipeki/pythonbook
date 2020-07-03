@@ -12,16 +12,14 @@
 
 #def parameters():
 
-
 #    val = input("Please input something nice")
 
 #    return val
 
 def parametersoperators():
 
-
-    num = input("Please input number")
-    num = input("Please input number") + num
+    number = input("Please input number")
+    number = input("Please input number") + number
 
 
 
