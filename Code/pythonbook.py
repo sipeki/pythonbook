@@ -4,9 +4,9 @@
  #   return "Hello World"
 
 
-#def helloworld2():
-#   text = "Hello World"
-  #  return text
+def helloworld2():
+    text = "Hello World"
+    return text
 
 def parameters():
 
