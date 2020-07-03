@@ -1,5 +1,9 @@
 def helloworld():
 
-    return print("Hello World")
+    return "Hello World"
 
-helloworld()
+
+def helloworld2():
+    text = "Hello World"
+    return text
+
