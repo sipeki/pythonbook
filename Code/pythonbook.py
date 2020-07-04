@@ -64,4 +64,65 @@ def recursion():
 
     return result
 
+# Lists
+# Create a list with 10 integer values in it, then call and output the first element in the list.
+
+def pllists():
+
+    thelist = []
+
+    for i in range(10):     # loop ten times
+        thelist.append(i+1)
+
+    result = thelist[0]
+
+    return result
+
+#Recursion/Lists
+# Using your list that you created in the Lists task, create a loop that iterates through your list,
+# outputting the values contained within it.
+
+def pllists2():
+
+    thelist = []
+
+    for i in range(10):     # loop ten times
+        thelist.append(i+1)
+
+    return thelist
+
+def recursionlists():
+
+    thelist = pllists2()
+    newlist = []
+    for i in range(len(thelist)):
+
+        newlist.append(thelist[i])
+
+    return newlist
+
+#   Create a loop that populates a list with values, outputting them at each iteration.
+#   Then create another loop that iterates through the array, changing the values at each
+#   point to equal itself times 10, outputting them at each iteration.
+#   Example Output
+#   1,2,3,4…
+#   10,20,30,40…
+
+
+def recursionlists2():
+
+    thelist = []
+    secondlist = []
+
+    for i in range(10):     # loop ten times
+        thelist.append(i+1)
+
+    for i in range(len(thelist)):
+
+        secondlist.append(thelist[i]*10)
+
+    return thelist, secondlist
+
+
+print(recursionlists2())
 

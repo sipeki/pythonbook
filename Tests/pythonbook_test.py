@@ -46,7 +46,15 @@ from Code import pythonbook
 #    assert pythonbook.conditionals2() == 14  # 12 2
 
 
-def test_recursion():
+#def test_recursion():
+ #   assert pythonbook.recursion() == "1 1 1 1 1 1 1 1 1 1"          # 1 0
+  #  assert pythonbook.recursion() == "2 3 5 7 9 11 13 15 17 19"     # 1 1 2 1 2 3 4 3 4 5 6 5 6 7 8 7 8 9 10 9
 
-    assert pythonbook.recursion() == "1 1 1 1 1 1 1 1 1 1"          # 1 0
-    assert pythonbook.recursion() == "2 3 5 7 9 11 13 15 17 19"     # 1 1 2 1 2 3 4 3 4 5 6 5 6 7 8 7 8 9 10 9
+#def test_pllists():
+#    assert pythonbook.pllists() == 1
+
+#def test_recursionlists():
+#    assert pythonbook.recursionlists() == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+#def test_recursionlists2():
+#    assert pythonbook.recursionlists2() == ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
