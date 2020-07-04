@@ -56,5 +56,10 @@ from Code import pythonbook
 #def test_recursionlists():
 #    assert pythonbook.recursionlists() == [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-def test_recursionlists2():
-    assert pythonbook.recursionlists2() == ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+# def test_recursionlists2():
+#   assert pythonbook.recursionlists2() == ([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+
+# def test_userinput():
+  #  assert pythonbook.userinput() == ([1, 2, 3, 4, 5], [10, 20, 30, 40, 50])    # 5
+  #  assert pythonbook.userinput() == ([-1, -2, -3], [-10, -20, -30]) # -3
+

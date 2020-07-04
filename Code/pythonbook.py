@@ -123,6 +123,28 @@ def recursionlists2():
 
     return thelist, secondlist
 
+#   User input
+#   Modify the previous task to take input from the user, taking
+#   an integer off of the user and using that integer to determine how large the array is going to be.
 
-print(recursionlists2())
+def userinput():
+
+    thelist = []
+    secondlist = []
+    rangevalue = int(input("Please enter a value? "))
+
+    if rangevalue > 0:                  # if value greater than 0
+        for i in range(rangevalue):     # loop to the value of the range
+            thelist.append(i+1)
+    else:
+        # startrange = rangevalue * -1
+        for i in range(0,rangevalue,-1):     # loop to the value of the range
+            thelist.append(i-1)
+
+    for i in range(len(thelist)):
+        secondlist.append(thelist[i]*10)
+
+    return thelist, secondlist
+
+
 
