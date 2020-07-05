@@ -1,3 +1,4 @@
+import array
 
 #def helloworld():
 
@@ -255,6 +256,25 @@ def near(txt1, txt2):
 
 
     return txtchk == txt2
+
+
+def timestable():
+
+    num = 1
+    numtable = ""
+    for i in range(10):
+        for ii in range(10):
+            if numtable == "":
+                numtable = str(num)
+            else:
+                numtable = numtable + ' ' + str(num)
+            num = num + 1
+        print(numtable + "\n")
+        numtable = ""
+
+
+
+    return
 
 
 
