@@ -63,3 +63,8 @@ from Code import pythonbook
   #  assert pythonbook.userinput() == ([1, 2, 3, 4, 5], [10, 20, 30, 40, 50])    # 5
   #  assert pythonbook.userinput() == ([-1, -2, -3], [-10, -20, -30]) # -3
 
+#def test_plfuctions():
+#    assert pythonbook.plfuctions() == 8     # 4 d
+#    assert pythonbook.plfuctions() == 12    # 4 t
+#    assert pythonbook.plfuctions() == -24     # -12 d
+#    assert pythonbook.plfuctions() == -36    # -12 t

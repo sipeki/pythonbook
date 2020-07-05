@@ -146,5 +146,25 @@ def userinput():
 
     return thelist, secondlist
 
+#   Functions
+# Create a function that asks the user for a number and whether they want to double or triple the number.
+# Have methods within the function for doubling and tripling the user’s number.
 
+def plfuctions():
+
+    val = int(input("\n Enter a number, any number: "))
+
+    while True:
+        data = input("If you wish to double " + str(val) + " press d or to triple the " + str(val) + " press t? ")
+        if data.lower() not in ('d', 't'):
+            print("Please respond with either a 'd' or 't'. Let's see if you can get it right this time.")
+        else:
+            break
+
+    if data.lower() == "d":
+        answer = int(val)*2
+    else:
+        answer = int(val) * 3
+
+    return answer
 
