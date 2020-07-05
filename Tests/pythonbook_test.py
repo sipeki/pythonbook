@@ -68,3 +68,14 @@ from Code import pythonbook
 #    assert pythonbook.plfuctions() == 12    # 4 t
 #    assert pythonbook.plfuctions() == -24     # -12 d
 #    assert pythonbook.plfuctions() == -36    # -12 t
+
+
+# def test_gradercalc():
+#   assert pythonbook.gradercalc() == 'A'     # 70 83 75 (A)
+#   assert pythonbook.gradercalc() == 'D'     # 50 30 40 (D)
+#   assert pythonbook.gradercalc() == 'C'     # 50 50 50 (C)
+#   assert pythonbook.gradercalc() == 'Fail'  # 39 39 39 (D)
+#   assert pythonbook.gradercalc() == 'B'     # 60 55 65 (B)
+
+# def test_isbncheck():
+#    assert pythonbook.isbncheck("978-0-306-40615") == 7
