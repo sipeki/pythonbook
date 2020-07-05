@@ -79,3 +79,11 @@ from Code import pythonbook
 
 # def test_isbncheck():
 #    assert pythonbook.isbncheck("978-0-306-40615") == 7
+
+
+def test_near():
+    assert pythonbook.near("reset", "rest") == True
+    assert pythonbook.near("eave", "leave") == False
+    assert pythonbook.near("dragoon", "dragon") == True
+    assert pythonbook.near("sleet", "lets") == False
+

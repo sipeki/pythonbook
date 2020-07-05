@@ -248,7 +248,7 @@ def near(txt1, txt2):
      #   txtchk = txt1.replace(txt1[i],'',1)
 
     for i in range(len(txt1)):
-        txtchk = txt1[:i - 1] + txt1[i:]
+        txtchk = txt1[:i - 1] + txt1[i:]    # slice from start set by i minus 1
         if txtchk == txt2:
             break
 
@@ -256,7 +256,6 @@ def near(txt1, txt2):
 
     return txtchk == txt2
 
-print(near("reset", "rest"))
-print(near("eave", "leave"))
+
 
 
