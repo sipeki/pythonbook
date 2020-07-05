@@ -240,11 +240,15 @@ def isbncheck(input):
 # near ("dragoon", "dragon") => true
 # near ("eave", "leave") => false
 # near ("sleet", "lets") => false
+# https://www.askpython.com/python/string/remove-character-from-string-python
 
 def near(txt1, txt2):
 
+    #for i in range(len(txt1)):
+     #   txtchk = txt1.replace(txt1[i],'',1)
+
     for i in range(len(txt1)):
-        txtchk = txt1.replace(txt1[i],'',1)
+        txtchk = txt1[:i - 1] + txt1[i:]
         if txtchk == txt2:
             break
 
@@ -253,5 +257,6 @@ def near(txt1, txt2):
     return txtchk == txt2
 
 print(near("reset", "rest"))
+print(near("eave", "leave"))
 
 
